@@ -1,0 +1,279 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+.header {
+    padding-top: 21px;
+    padding-bottom: 22px;
+
+
+}
+
+.background {
+    background-color: rgb(31, 36, 45);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 51px;
+    list-style: none;
+}
+
+.header__link {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.header__image{
+    display: none;
+}
+
+span {
+    color: #00EEFF;
+}
+
+.hero__title {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero__desc {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72.8px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero__titlebox {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.hero__text {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 636.24px;
+    text-align: left;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.hero__button {
+    color: rgb(50, 57, 70);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 40px;
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 238, 255);
+    background: rgb(0, 238, 255);
+    border: none;
+    padding: 8px;
+    width: 176.59px;
+    margin-top: 20px;
+
+}
+
+.image {
+    width: 300px;
+}
+
+@media(max-width:950px) {
+    .image {
+        max-width: 200px;
+    }
+
+    .hero__title {
+        font-size: 28px;
+    }
+
+    .hero__desc {
+        font-size: 49.3px;
+    }
+
+    .hero__titlebox {
+        font-size: 28.2px;
+    }
+
+    .hero__text {
+        font-size: 14px;
+    }
+
+    .section__wrapper{
+        width: 268px;
+    }
+
+    .section__wrapp{
+        width: 268px;
+    }
+}
+
+.section__title {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.section__wrapper {
+    box-sizing: border-box;
+    border: 2px solid rgb(31, 36, 45);
+    border-radius: 20px;
+
+    background: rgb(50, 57, 70);
+    width: 380.27px;
+
+}
+
+.section__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__desc {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section__button {
+    border-radius: 40px;
+    width: 151px;
+    padding: 8px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 238, 255);
+    background: rgb(0, 238, 255);
+}
+
+.section__text {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+.section__parent{
+    display: flex;
+    gap: 20px;
+}
+
+.section__wrapp{
+    box-sizing: border-box;
+    border: 2px solid rgb(31, 36, 45);
+    border-radius: 20px;
+
+    background: rgb(50, 57, 70);
+    width: 380.27px;
+
+}
+
+@media(max-width:850px){
+    .header__list{
+        display: none;
+    }
+    .header__image{
+        display: block;
+    }
+
+    .hero__wrapper{
+        flex-wrap: wrap;
+    }
+
+    .hero__image{
+        margin: 0 auto;
+    }
+
+    .section__parent{
+        flex-wrap: wrap;
+    }
+    .section__wrapp{
+        width: 721px;
+        margin: 0 auto ; 
+    }
+}
+
+@media(max-width:650px){
+    .hero__text{
+        width: 353px;
+    }
+}
+
+.end__h1{
+    font-family: Poppins;
+font-size: 45px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+
+.end__img{
+    width: 362px;
+    
+}
+.end__wrapper{
+    margin: 0 auto;
+    
+}
+
+
